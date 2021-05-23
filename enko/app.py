@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 
 import naver_translate as nt
 import google_search as gs
-import api_key as ak
 import report
 
 app = Flask(__name__)
@@ -21,7 +20,7 @@ google_api_key  = "7367b7df89mshcd92f1e431d8258p17ce0fjsn140a51aa3b55" # RAPIDAP
 
 @app.route('/')
 def index():
-    return render_template('krInput.html')
+    return render_template('index.html')
 
 @app.route('/kr_input', methods=['POST'])
 def kr_input():
@@ -30,6 +29,9 @@ def kr_input():
 
     if len(kr_text)<1:
         return '검색어를 입력해주십시오.' + '<a href="/">Back home</a>'
+
+    if len(kr_text) > 25: # 검색어가 너무 길면 자른다.
+        kr_text = kr_text[:26]
 
     sourceLang = 'ko'
     targetLang = 'en'

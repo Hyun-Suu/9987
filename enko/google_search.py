@@ -17,4 +17,4 @@ def gSearch(keyword, api_key, api_host):
         return json.loads(res.text)
 
     else:
-        return None
+        print("Error Code:" + res.status_code)
