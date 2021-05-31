@@ -17,5 +17,14 @@
 
 --------------
 **소개영상**
+
 [![image](https://user-images.githubusercontent.com/62391546/120149910-558fd480-c225-11eb-8be5-57f3f5d74d54.png)](https://www.youtube.com/watch?v=DFlK2wkRjP8)
 
+--------------
+**참고문헌**
+
+-Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. arXiv preprint arXiv:1706.03762.
+
+-Sutskever, I., Vinyals, O., & Le, Q. V. (2014). Sequence to sequence learning with neural networks. arXiv preprint arXiv:1409.3215.
+
+-Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473.
