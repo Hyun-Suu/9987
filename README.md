@@ -2,7 +2,6 @@
 
 --------------
 ### 2021학년도 1학기 SW-PBL
-![image](https://user-images.githubusercontent.com/62391546/120148966-fc737100-c223-11eb-8b3d-6b70c72a91de.png)
 
 --------------
 **주제** : 자연어 처리를 이용한 번역 서비스
